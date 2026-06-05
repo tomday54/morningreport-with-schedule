@@ -23,6 +23,7 @@ jobs:
         run: pip install anthropic requests beautifulsoup4 yfinance
 
       - name: Run morning report
+        working-directory: tomlovesmorning
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
