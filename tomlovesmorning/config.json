@@ -1,0 +1,19 @@
+{
+  "recipients": [],
+  "cc": [],
+  "subject_prefix": "Morning Energy Report",
+  "anthropic_model": "claude-sonnet-4-6",
+  "max_agent_turns": 12,
+  "max_web_searches": 10,
+  "focus_notes": "Global crude oil markets (Brent/WTI), OPEC+, refined products; carbon credits (EU ETS, UKA, voluntary market); European power & gas (TTF, NBP, electricity). Prioritise market-moving, price-relevant developments from the last 24-36 hours.",
+  "verify_pages": {
+    "brent":          "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "wti":            "https://tradingeconomics.com/commodity/crude-oil",
+    "carbon_eua":     "https://tradingeconomics.com/commodity/carbon",
+    "ttf_gas":        "https://tradingeconomics.com/commodity/eu-natural-gas",
+    "german_power":   "https://tradingeconomics.com/germany/electricity-price",
+    "eu_gas_storage": "https://energyriskiq.com/gas-storage-levels-in-europe",
+    "eia_weekly":     "https://www.eia.gov/petroleum/supply/weekly/",
+    "eia_steo":       "https://www.eia.gov/outlooks/steo/"
+  }
+}
